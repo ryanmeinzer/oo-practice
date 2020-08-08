@@ -1,0 +1,11 @@
+OO Practice
+
+// instantiate class called Dog
+// add in a name, age and breed
+// class should have a variable with all instances of the dogs in there (array)
+// have two instance methods
+    1. increase age of dog and 
+    2. renders html that puts dog out in p tag to index.html
+// somewhere random, create a form for user to do/create all this
+// have some type of birthday widget to increase the dog's age
+// no backend, all JS
