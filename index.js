@@ -47,11 +47,11 @@ dogContainer.addEventListener('click', function (e) {
 })
 
 
-function scopeOne() { 
-    const scopeTwo = () => {
-        console.log(this);
-    }
-    scopeTwo()
-}
+// function scopeOne() { 
+//     const scopeTwo = () => {
+//         console.log(this);
+//     }
+//     scopeTwo()
+// }
 
-scopeOne()
+// scopeOne()
