@@ -26,17 +26,32 @@ dogFormContainer.addEventListener('submit', function(e) {
             'age': document.querySelector("[name='age']").value,
             'breed': document.querySelector("[name='breed']").value
         }
-        new Dog(dog)
+// Do
+        new Dog(dog.name, dog.age, dog.breed)
         Dog.renderAllDogs()
     })
 
 
-// Do
+// have some type of birthday widget to increase the dog's age
 
-
+// Determine
+// Observe
 dogContainer.addEventListener('click', function (e) {
-    // Do
         e.preventDefault()
-        debugger
-        // e.target.id 
+// Manipulate
+        // debugger
+        let dogName = e.target.id
+        let dog = Dog.all.find(e => e.name === dogName)
+        dog.age = parseInt(dog.age) + 1
+        Dog.renderAllDogs()
 })
+
+
+function scopeOne() { 
+    const scopeTwo = () => {
+        console.log(this);
+    }
+    scopeTwo()
+}
+
+scopeOne()

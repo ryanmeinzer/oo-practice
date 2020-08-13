@@ -5,7 +5,7 @@ class Dog {
     static all = []
 
 // add in a name, age and breed
-    constructor({name, age, breed}){
+    constructor(name, age, breed){
         // why isn't the id being defined upon creation? 
         this.name = name
         this.age = age
@@ -32,7 +32,7 @@ class Dog {
         Name: ${this.name}
         Age: ${this.age}
         Breed: ${this.breed}
-        <button id='${this.name}'>Increment ${this.name}'s age by one</button>
+        <button id='${this.name}'>Happy Birthday to ${this.name}!</button>
         `
     }
 

@@ -9,3 +9,5 @@ OO Practice
 // somewhere random, create a form for user to do/create all this
 // have some type of birthday widget to increase the dog's age
 // no backend, all JS
+
+// ask for challenges with execution context (this, call, apply, bind, =>, closures, etc.)
